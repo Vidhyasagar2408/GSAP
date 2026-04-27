@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  color: white;
+  background-color: #000;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.box1 {
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+}
+
+.box2 {
+  height: 200px;
+  width: 200px;
+  background-color: lightseagreen;
+}
+
+.box3 {
+  height: 200px;
+  width: 200px;
+  background-color: royalblue;
+}
