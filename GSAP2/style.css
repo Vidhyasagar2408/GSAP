@@ -6,40 +6,57 @@
   color: white;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
 
-.page1{
-    height: 100%;
-    width: 100%;
-    background-color: lightblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.page1 {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.page2{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(68, 182, 220);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(68, 182, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
 }
 
-.page3{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(10, 160, 209);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.page3 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(10, 160, 209);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.box{
-    height: 200px;
-    width: 200px;
-    background-color: crimson;
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+}
+
+h1 {
+  font-size: 50px;
+  position: relative;
+  background-color: red;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  position: relative;
+  background-color: yellow;
+  padding: 10px;
 }
