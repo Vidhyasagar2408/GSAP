@@ -1,19 +1,21 @@
 const marque = gsap.to("#marque", {
-  xPercent: -200,
-  duration: 3,
-  repeat: -1,
+  xPercent: -100,
   ease: "none",
+  repeat: -1,
+  duration: 2,
 });
 
 const arrow = gsap.to("#marque img", {
   rotate: 180,
 });
 
-window.addEventListener("wheel", function (e) {
+window.addEventListener("wheel", (e) => {
   if (e.deltaY > 0) {
+    scrollDown = true;
     marque.play();
     arrow.play();
-  } else {
+  } else if (e.deltaY < 0) {
+    scrollDown = false;
     marque.reverse();
     arrow.reverse();
   }

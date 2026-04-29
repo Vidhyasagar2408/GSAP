@@ -41,7 +41,6 @@ body {
   align-items: center;
   gap: 3vw;
   padding: 0.8vw 1vw;
-  transform: translateX(-100%);
 }
 
 #marque img {
