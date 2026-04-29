@@ -1,11 +1,47 @@
+@font-face {
+  font-family: NM;
+  src: url(./NeueMachina-Light.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: gilroy;
+  font-family: NM;
 }
 
 html, body {
   height: 100%;
   width: 100%;
+}
+
+body{
+  background-color: #000;
+}
+
+#page1, #page2, #page3 {
+  height: 100%;
+  width: 100%;
+}
+
+#move{
+  background-color: #E2FB4A;
+  display: flex;
+  padding: 3vw 0;
+}
+
+#marque{
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  padding: 0.8vw 1vw;
+}
+
+#marque img{
+  height: 40px;
+}
+
+#marque h1{
+  flex-shrink: 0;
+  font-size: 30px;
 }
