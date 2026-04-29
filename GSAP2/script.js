@@ -26,7 +26,6 @@ gsap.from(".page2 h2",{
     scrollTrigger: {
         trigger: ".page2 h2",
         scroller: "body",
-        markers: true,
         start: "top 50%"
     }
 })
