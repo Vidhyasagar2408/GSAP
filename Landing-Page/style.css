@@ -107,6 +107,7 @@ nav .part2 button {
   width: 60%;
   display: flex;
   justify-content: flex-end;
+  overflow-x: hidden;
 }
 
 .center .center-part2 img {
@@ -135,7 +136,7 @@ nav .part2 button {
     align-items: center;
     justify-content: flex-start;
     gap: 1vw;
-    margin-bottom: 7vw;
+    margin-bottom: 4vw;
 }
 
 .section2 .services h3{
@@ -154,7 +155,6 @@ nav .part2 button {
 .container{
     height: 80%;
     width: 100%;
-    padding: 2vw 5vw;
     display: flex;
     justify-content: space-between;
     gap: 4vw;
