@@ -1,0 +1,229 @@
+@font-face {
+  font-family: NM;
+  src: url(./NeueMachina-Light.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: NM;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vw 5vw;
+  gap: 1vw;
+  margin-bottom: 3vw;
+}
+
+nav .part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+nav .part1 i {
+  font-size: 2vw;
+  transform: rotate(45deg);
+}
+
+nav h1 {
+  font-size: 2vw;
+}
+
+nav .part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8vw;
+}
+
+nav .part2 h4 {
+  font-size: 1.2vw;
+}
+
+nav .part2 button {
+  background-color: transparent;
+  padding: 0.4vw;
+  border-radius: 0.5vw;
+  font-size: 0.8vw;
+  border: 2px solid black;
+  font-weight: 700;
+}
+
+.center {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1vw 5vw;
+  margin-bottom: 7vw;
+}
+
+.center .center-part1 {
+  height: 100%;
+  width: 40%;
+}
+
+.center .center-part1 h1 {
+  font-size: 4vw;
+  margin-bottom: 1.5vw;
+}
+
+.center .center-part1 p {
+  font-size: 1.2vw;
+  width: 95%;
+  opacity: 0.6;
+  margin-bottom: 1.5vw;
+  line-height: 1.2;
+}
+
+.center .center-part1 button {
+  padding: 1vw 2.5vw;
+  background-color: black;
+  color: white;
+  border-radius: 1vw;
+  font-size: 0.9vw;
+}
+
+.center .center-part2 {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.center .center-part2 img {
+  height: auto;
+  width: 70%;
+}
+
+.section1-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw 4vw;
+  margin-bottom: 5vw;
+}
+
+.section1-bottom img {
+  height: 3vw;
+}
+
+.section2 {
+  padding: 2vw 5vw;
+}
+
+.section2 .services{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1vw;
+    margin-bottom: 7vw;
+}
+
+.section2 .services h3{
+    font-size: 1.5vw;
+    background-color: #B9FF66;
+    padding: 0.5vw 2vw;
+    border-radius: 10px;
+}
+
+.section2 .services p{
+    font-size: 1vw;
+    opacity: 0.7;
+    font-weight: 700;
+}
+
+.container{
+    height: 80%;
+    width: 100%;
+    padding: 2vw 5vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 4vw;
+    flex-wrap: wrap;
+}
+
+.elem{
+    padding: 40px;
+    flex-shrink: 0;
+    height: 400px;
+    width: 47%;
+    border-radius: 20px;
+    border: 3px black solid;
+    box-shadow: 0 15px 0 black;
+    display: flex;
+}
+
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.elem-part1 h2{
+    font-size: 1.8vw;
+    background-color: #B9FF66;
+    width: 80%;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.elem-part1 h4{
+    font-size: 1vw;
+}
+
+.elem-part1 i{
+    font-size: 1.5vw;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    padding: 7px;
+}
+
+.elem-part2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.elem-part2 img{
+    height: 80%;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.black h2{
+    background-color: white;
+    color: black;
+}
+
+.black i{
+    background-color: white;
+    color: black;
+}
