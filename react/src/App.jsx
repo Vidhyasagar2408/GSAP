@@ -3,24 +3,24 @@ import gsap from "gsap";
 import React, { useRef } from "react";
 const App = () => {
 
-  let boxRef = useRef()
+  const container = useRef()
 
   useGSAP(()=>{
-    gsap.from(boxRef.current,{
-      y:300,
+    gsap.from(".box",{
       duration:1,
       delay:1,
       opacity:0,
-      rotate:350
+      rotate:720,
+      scale:0
     })
-  })
+  },{scope:container})
 
   return (
     <div>
       <main>
-        <div className="container1">
+        <div ref={container} className="container1">
           <div className="circle"></div>
-          <div ref={boxRef} className="box"></div>
+          <div className="box"></div>
         </div>
         <div className="container2">
           <div className="circle"></div>
