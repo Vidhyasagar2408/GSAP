@@ -6,16 +6,17 @@
   color: white;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
 
-body{
+body {
   background-color: black;
 }
 
-main{
+main {
   height: 100vh;
   width: 100%;
   padding: 20px;
@@ -26,17 +27,16 @@ main{
   gap: 30px;
 }
 
-.box{
+.box {
   height: 300px;
   width: 300px;
-  background: linear-gradient(to right bottom, red,yellow);
 }
 
-button{
+button {
   padding: 10px 60px;
   border: none;
   color: black;
-  background: linear-gradient(lightseagreen,seagreen);
+  background: linear-gradient(lightseagreen, seagreen);
   font-size: 25px;
   font-weight: 900;
   border-radius: 20px;

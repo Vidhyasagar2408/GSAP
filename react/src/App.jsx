@@ -29,7 +29,11 @@ const App = () => {
         >
           Animate
         </button>
-        <div ref={boxRef} className="box"></div>
+        <img
+          ref={boxRef}
+          src="https://pngimg.com/uploads/fly/fly_PNG3946.png"
+          alt=""
+        />
       </main>
     </div>
   );
