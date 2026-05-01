@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: black;
+}
+
+main{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+  background: linear-gradient(to right bottom, rgb(184, 38, 38) , rgb(221, 93, 114));
+}
+
+button{
+  padding: 10px 50px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 800;
+}
