@@ -68,8 +68,8 @@ nav .part2 button {
 }
 
 .center {
-  height: 80%;
-  width: 100%;
+  height: 80vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   padding: 1vw 5vw;
@@ -131,99 +131,171 @@ nav .part2 button {
   padding: 2vw 5vw;
 }
 
-.section2 .services{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 1vw;
-    margin-bottom: 4vw;
+.section2 .services {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1vw;
+  margin-bottom: 4vw;
 }
 
-.section2 .services h3{
-    font-size: 1.5vw;
-    background-color: #B9FF66;
-    padding: 0.5vw 2vw;
-    border-radius: 10px;
+.section2 .services h3 {
+  font-size: 1.5vw;
+  background-color: #b9ff66;
+  padding: 0.5vw 2vw;
+  border-radius: 10px;
 }
 
-.section2 .services p{
-    font-size: 1vw;
-    opacity: 0.7;
-    font-weight: 700;
+.section2 .services p {
+  font-size: 1vw;
+  opacity: 0.7;
+  font-weight: 700;
 }
 
-.container{
-    height: 80%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    gap: 4vw;
-    flex-wrap: wrap;
+.container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 4vw;
+  flex-wrap: wrap;
 }
 
-.elem{
-    padding: 40px;
-    flex-shrink: 0;
-    height: 400px;
-    width: 47%;
-    border-radius: 20px;
-    border: 3px black solid;
-    box-shadow: 0 15px 0 black;
-    display: flex;
+.elem {
+  padding: 40px;
+  flex-shrink: 0;
+  height: 400px;
+  width: 47%;
+  border-radius: 20px;
+  border: 3px black solid;
+  box-shadow: 0 15px 0 black;
+  display: flex;
 }
 
-.elem-part1{
-    height: 100%;
-    width: 50%;
-    display: flex;
+.elem-part1 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.elem-part1 h2 {
+  font-size: 1.8vw;
+  background-color: #b9ff66;
+  width: 80%;
+  border-radius: 20px;
+  padding: 12px;
+}
+
+.elem-part1 h4 {
+  font-size: 1vw;
+}
+
+.elem-part1 i {
+  font-size: 1.5vw;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  padding: 7px;
+}
+
+.elem-part2 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.elem-part2 img {
+  height: 80%;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.black h2 {
+  background-color: white;
+  color: black;
+}
+
+.black i {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  nav {
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-}
+    gap: 10px;
+  }
 
-.elem-part1 h2{
-    font-size: 1.8vw;
-    background-color: #B9FF66;
-    width: 80%;
-    border-radius: 20px;
-    padding: 12px;
-}
+  nav .part2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-.elem-part1 h4{
-    font-size: 1vw;
-}
+  .center {
+    flex-direction: column;
+    text-align: center;
+  }
 
-.elem-part1 i{
-    font-size: 1.5vw;
-    background-color: black;
-    border-radius: 50%;
-    color: white;
-    padding: 7px;
-}
+  .center-part1,
+  .center-part2 {
+    width: 100%;
+  }
 
-.elem-part2{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
+  .center-part1 h1 {
+    font-size: 28px;
+  }
 
-.elem-part2 img{
-    height: 80%;
-}
+  .center-part1 p {
+    font-size: 14px;
+  }
 
-.black{
-    background-color: black;
-    color: white;
-}
+  .center-part1 button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
 
-.black h2{
-    background-color: white;
-    color: black;
-}
+  .center-part2 img {
+    width: 100%;
+  }
 
-.black i{
-    background-color: white;
-    color: black;
+  .section1-bottom {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .section1-bottom img {
+    height: 30px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .elem {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .elem-part1,
+  .elem-part2 {
+    width: 100%;
+  }
+
+  .elem-part1 h2 {
+    font-size: 18px;
+  }
+
+  .elem-part1 h4 {
+    font-size: 14px;
+  }
 }

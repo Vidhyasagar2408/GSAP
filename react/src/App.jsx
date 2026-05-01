@@ -9,7 +9,7 @@ const App = () => {
   const [rotate, setRotate] = useState(0);
 
   const randomX = gsap.utils.random(-500, 500, 100);
-  const randomY = gsap.utils.random(-400, 400, 100);
+  const randomY = gsap.utils.random(-200, 200, 100);
   const randomR = gsap.utils.random(-720, 7200, 30);
 
   useGSAP(() => {
