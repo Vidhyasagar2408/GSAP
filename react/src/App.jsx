@@ -10,7 +10,7 @@ const App = () => {
 
   useGSAP(() => {
     gsap.to(boxRef.current, {
-      x: xValue,
+      rotate: xValue,
       duration: 1,
     });
   }, [xValue]);
