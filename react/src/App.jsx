@@ -2,28 +2,30 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import React, { useRef, useState } from "react";
 const App = () => {
-  const [circle, setCircle] = useState(0);
+  const boxRef = useRef();
+
+  const [xValue, setXValue] = useState(0);
 
   const random = gsap.utils.random(-500, 500, 100);
 
   useGSAP(() => {
-    gsap.to(".circle", {
-      x: circle,
+    gsap.to(boxRef.current, {
+      x: xValue,
       duration: 1,
     });
-  },[circle]);
+  }, [xValue]);
 
   return (
     <div>
       <main>
         <button
           onClick={() => {
-            setCircle(random);
+            setXValue(random);
           }}
         >
           Animate
         </button>
-        <div className="circle"></div>
+        <div ref={boxRef} className="box"></div>
       </main>
     </div>
   );

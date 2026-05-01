@@ -26,11 +26,10 @@ main{
   gap: 30px;
 }
 
-.circle{
+.box{
   height: 300px;
   width: 300px;
-  border-radius: 50%;
-  background: linear-gradient(to right bottom,lightblue,cadetblue);
+  background: linear-gradient(to right bottom, red,yellow);
 }
 
 button{
